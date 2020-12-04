@@ -11,7 +11,7 @@
         z-index: 1;
         left: 0;
         flex-direction: row;
-        align-items: end;
+        align-items: flex-end;
         justify-content: space-between;
         text-align: center;
         padding: 1vh 1vw;
@@ -32,7 +32,7 @@
         z-index: 1;
         right: 0;
         flex-direction: row;
-        align-items: end;
+        align-items: flex-end;
         justify-content: space-between;
         font-size: 18px;
         text-align: center;

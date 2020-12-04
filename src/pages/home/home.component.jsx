@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../../assets/DSC02784.jpg';
+import Banner from '../../assets/DSC02784_2.jpg';
 
 import './home.styles.scss';
 
