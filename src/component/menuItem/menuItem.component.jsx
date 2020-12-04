@@ -4,8 +4,8 @@ import React from 'react';
 import './menuItem.styles.scss';
 
 const MenuItem = ({ name, linkUrl }) => (
-    <div className='menuItem'>
-        <p>{name}</p>
+    <div className='menu-item'>
+        <Link to={linkUrl}><p>{name}</p></Link>
     </div>
 )
 

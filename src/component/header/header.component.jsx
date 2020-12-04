@@ -29,8 +29,8 @@ class Header extends React.Component {
                     },
                     {
                         "id": 4,
-                        "name": "Gallery",
-                        "linkUrl": "/gallery",
+                        "name": "Album",
+                        "linkUrl": "/album",
                     },
                     {
                         "id": 5,
@@ -48,7 +48,7 @@ class Header extends React.Component {
         return (
             <div className="header-container">
                 <div className="menu-icon">
-                    <p id="name-wrap"><span id="name">MY</span></p>
+                    <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
                 </div>
                 <div className="menu">
                     {

@@ -1,10 +1,10 @@
-.header-container{
+.header-container {
     position: relative;
     display: flex;
     justify-content: space-between;
     background: linear-gradient(180deg, #f9f9f9, #f7f7f7);
     margin: 0 5vw;
-    .menu-icon{
+    .menu-icon {
         width: 350px;
         display: flex;
         position: absolute;
@@ -16,16 +16,19 @@
         text-align: center;
         padding: 1vh 1vw;
         margin: 0vh 2vw;
-        #name-wrap{
+        a {
+            text-decoration: none;
+        }
+        #name-wrap {
             text-align: center;
-            #name{
+            #name {
                 color: #949494;
                 font-weight: 600;
                 font-size: 30px;
             }
         }
     }
-    .menu{
+    .menu {
         width: 350px;
         display: flex;
         position: absolute;
