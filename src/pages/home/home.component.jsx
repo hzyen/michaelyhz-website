@@ -1,6 +1,10 @@
 import React from 'react';
+<<<<<<< HEAD
 
 import Banner from '../../assets/DSC02784.jpg';
+=======
+import Banner from '../../assets/DSC02784_2.jpg';
+>>>>>>> 897f4447b4c575e62997d1aaf8def5f2c34d7525
 
 
 import './home.styles.scss';
