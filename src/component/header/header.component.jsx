@@ -44,7 +44,6 @@ class Header extends React.Component {
 
     render() {
         const { menuBarData } = this.state;
-
         return (
             <div className="header-container">
                 <div className="menu-icon">

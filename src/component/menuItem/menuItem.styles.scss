@@ -1,14 +1,32 @@
-.menu-item {
-    color: #949494;
-    a {
-        text-decoration: none;
-    }
-
-    a:link {
+.menu-item-container {
+    position: relative;
+    .menu-item-inner {
         color: #949494;
-    }
+        position: absolute;
+        top: 0;
+        left: 0;
+        a {
+            text-decoration: none;
+        }
 
-    a:visited {
-        color: #949494;
+        a:link {
+            color: #949494;
+        }
+
+        a:visited {
+            color: #949494;
+        }
     }
+    
+    .menu-item-inner:hover {
+        animation: menu-item 0.1s forwards;
+    }
+}
+
+@keyframes menu-item {
+    0% { font-size: 18px; }
+    25% { font-size: 19px; top: -5px; left: -1px; font-weight: 100;}
+    50% { font-size: 20px; top: -6px; left: -2px; font-weight: 200;}
+    75% { font-size: 21px; top: -7px; left: -3px; font-weight: 300;}
+    100% { font-size: 22px; top: -8px; left: -4px; font-weight: 400;}
 }

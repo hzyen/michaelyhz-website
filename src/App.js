@@ -9,7 +9,7 @@ import Project from './pages/project/project.component';
 import Album from './pages/album/album.component';
 import Contact from './pages/contact/contact.component';
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
