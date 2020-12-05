@@ -46,17 +46,20 @@ class Header extends React.Component {
         const { menuBarData } = this.state;
         return (
             <div className="header-container">
-                <div className="menu-icon">
-                    <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
+                <div className="header-container-inner">
+                    <div className="menu-icon">
+                        <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
+                    </div>
+                    <div className="menu">
+                        {
+                            menuBarData.menuBar.map(
+                                ({ id, ...othersProps }) =>
+                                    (<MenuItem key={id} {...othersProps} />)
+                            )
+                        }
+                    </div>
                 </div>
-                <div className="menu">
-                    {
-                        menuBarData.menuBar.map(
-                            ({ id, ...othersProps }) =>
-                                (<MenuItem key={id} {...othersProps} />)
-                        )
-                    }
-                </div>
+
             </div>
         );
     }
