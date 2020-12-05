@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Banner from '../../assets/optimized/DSC02784.jpg';
+import Banner from '../../assets/progressive_img/DSC02784.jpg';
 
 
 import './home.styles.scss';

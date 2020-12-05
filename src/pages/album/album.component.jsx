@@ -1,5 +1,5 @@
 import React from 'react';
-import Banner from '../../assets/optimized/DSC02981.jpg';
+import Banner from '../../assets/progressive_img/DSC02981.jpg';
 import './album.styles.scss';
 
 const Album = () => (
