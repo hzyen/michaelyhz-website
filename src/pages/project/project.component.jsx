@@ -4,7 +4,7 @@ import './project.styles.scss';
 
 const Project = () => (
     <div>
-        <img src={Banner} alt="Banner" />
+        <img className="coming-soon-img" src={Banner} alt="Banner" />
         <div className="coming-soon">
             <p>Coming Soon</p>
         </div>
