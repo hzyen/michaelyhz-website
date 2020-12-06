@@ -43,7 +43,7 @@ function Home() {
                         <Link to="/about">
                             <div className="explore-container">
                                 <div className="explore-container-inner">
-                                    <span>Expore</span>
+                                    <span>Explore</span>
                                 </div>
                             </div>
                         </Link>
