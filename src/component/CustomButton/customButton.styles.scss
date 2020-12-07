@@ -1,0 +1,32 @@
+.explore-container {
+    position: relative;
+    width: 90px;
+    height: 40px;
+    display: block;
+    border-radius: 5%;
+    background-color: #6b6b6b;
+    margin-top: 35px;
+    text-align: left;
+    .explore-container-inner {
+        position: absolute;
+        left: 16%;
+        top: 46%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+        overflow: hidden;
+        //text-align: center;
+        //justify-content: center;
+        //padding-top: 5px;
+        span {
+            font-size: 19px;
+            color: #cecece;
+        }
+    }
+}
+
+.explore-container:hover {
+    background-color: #cecece;
+    span {
+        color: #6b6b6b;
+    }
+}

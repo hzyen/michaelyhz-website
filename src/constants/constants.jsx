@@ -1,0 +1,1 @@
+export const TITLE_MAIN_COLOR = "#949494";

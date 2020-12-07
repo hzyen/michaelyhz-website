@@ -4,6 +4,8 @@ import { TweenMax, Power3 } from 'gsap';
 
 import Banner from '../../assets/progressive_img/DSC02784.jpg';
 
+import CustomBottom from '../../component/CustomButton/customButton.component';
+
 import About from '../about/about.component';
 
 
@@ -37,15 +39,11 @@ function Home() {
                             ref={el => { descriptionItem = el }}
                             className="description"><span>A Fresh Gruduated Computer Engineer</span></p>
                     </div>
-                    <div 
+                    <div
                         ref={el => { exploreButton = el }}
                         className="explore-wrap">
                         <Link to="/about">
-                            <div className="explore-container">
-                                <div className="explore-container-inner">
-                                    <span>Explore</span>
-                                </div>
-                            </div>
+                            <CustomBottom name="Explore" />
                         </Link>
                     </div>
                 </div>
