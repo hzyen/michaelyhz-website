@@ -25,7 +25,7 @@ function App() {
           <Route path='/contact' component={Contact} />
         </Switch>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
