@@ -1,8 +1,74 @@
-.contact-container{
-    //height: 100vh;
-    //background: linear-gradient(0deg, #2b435373, #ffffff);
-    .containter-inner{
-        //height: 100;
-        
+.contact-container {
+    position: relative;
+    min-height: 100vh;
+    
+    .contact-container-inner {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        padding-top: 10vh;
+        margin: 0 8vw 0 8vw;
+        .contact-container-top {
+            text-align: left;
+            .contact-title {
+                p {
+                    width: 80%;
+                    font-size: 32px;
+                    font-weight: 400;
+                    color: #949494;
+                }
+            }
+        }
+        .contact-container-bottom {
+            width: 100%;
+            display: flex;
+            position: relative;
+            flex-direction: row;
+            margin-top: 30px;
+            .contact-inner-bottom-left {
+                width: 50%;
+                float: left;
+                img {
+                    opacity: 0.9;
+                    width: 60%;
+                    border-radius: 100%;
+                }
+            }
+            .contact-inner-bottom-right {
+                width: 50%;
+                position: relative;
+                .socialMedia-container {
+                    position: absolute;
+                    top: 30%;
+                    left: 5%;
+                    margin: 2vh 5vw;
+                    display: flex;
+                    .socialMedia-container-inner {
+                        margin: 1vh 5%;
+                        width: 30%;
+                        img {
+                            opacity: 1;
+                            width: 100%;
+                            border-radius: 100%;
+                            &:hover {
+                                width: 120%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .contact-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        text-align: end;
+        right: 8vw;
+        //height: 2.5rem;
+        p {
+            color: #949494;
+            font-size: 10px;
+        }
     }
 }

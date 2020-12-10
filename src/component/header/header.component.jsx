@@ -46,7 +46,7 @@ class Header extends React.Component {
         const { menuBarData } = this.state;
         return (
             <div className="header-container">
-                <div className="header-container-inner">
+                <div className="header-container-inner mainPage-styles">
                     <div className="menu-icon">
                         <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
                     </div>

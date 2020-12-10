@@ -7,19 +7,17 @@
         right: 0;
         a {
             text-decoration: none;
+            &:link {
+                color: #949494;
+            }
+            &:visited {
+                color: #949494;
+            }
         }
-
-        a:link {
-            color: #949494;
+        &:hover {
+            animation: menu-item 0.01s forwards;
+            //width: 120%;
         }
-
-        a:visited {
-            color: #949494;
-        }
-    }
-    
-    .menu-item-inner:hover {
-        animation: menu-item 0.1s forwards;
     }
 }
 
