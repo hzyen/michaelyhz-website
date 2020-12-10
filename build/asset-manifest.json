@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ba0bd06e.chunk.css",
-    "main.js": "/static/js/main.aecd9283.chunk.js",
-    "main.js.map": "/static/js/main.aecd9283.chunk.js.map",
+    "main.js": "/static/js/main.792aa895.chunk.js",
+    "main.js.map": "/static/js/main.792aa895.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cbb4c88c.js",
     "runtime-main.js.map": "/static/js/runtime-main.cbb4c88c.js.map",
     "static/js/2.9f1536e0.chunk.js": "/static/js/2.9f1536e0.chunk.js",
@@ -14,14 +14,13 @@
     "static/js/2.9f1536e0.chunk.js.LICENSE.txt": "/static/js/2.9f1536e0.chunk.js.LICENSE.txt",
     "static/media/DSC02784.a02b11b1.jpg": "/static/media/DSC02784.a02b11b1.jpg",
     "static/media/DSC02981_1.51a79d87.jpg": "/static/media/DSC02981_1.51a79d87.jpg",
-    "static/media/contact_banner.8eaf51c1.jpg": "/static/media/contact_banner.8eaf51c1.jpg",
-    "static/media/ig_icon.9553401f.jpg": "/static/media/ig_icon.9553401f.jpg",
+    "static/media/contact_banner.d311f7ef.jpg": "/static/media/contact_banner.d311f7ef.jpg",
     "static/media/whatsapp_icon.b737e98d.png": "/static/media/whatsapp_icon.b737e98d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cbb4c88c.js",
     "static/js/2.9f1536e0.chunk.js",
     "static/css/main.ba0bd06e.chunk.css",
-    "static/js/main.aecd9283.chunk.js"
+    "static/js/main.792aa895.chunk.js"
   ]
 }
