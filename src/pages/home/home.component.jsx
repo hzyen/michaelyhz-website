@@ -4,7 +4,7 @@ import { TweenMax, Power3 } from 'gsap';
 
 import Banner from '../../assets/progressive_img/DSC02784.jpg';
 
-import CustomBottom from '../../component/CustomButton/customButton.component';
+import CustomBottom from '../../component/customButton/customButton.component';
 
 import About from '../about/about.component';
 

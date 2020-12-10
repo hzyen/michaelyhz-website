@@ -1,50 +1,41 @@
 .header-container {
+    width: 100vw;
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
+    z-index: 1;
     .header-container-inner {
         position: relative;
         display: flex;
         justify-content: space-between;
-        .menu-icon {
-            width: 350px;
-            display: flex;
-            position: absolute;
-            z-index: 1;
-            left: 0;
-            flex-direction: row;
-            align-items: flex-end;
-            justify-content: space-between;
-            text-align: center;
-            padding: 1vh 1vw;
-            margin: 0vh 2vw;
-            a {
-                text-decoration: none;
-            }
-            #name-wrap {
-                text-align: center;
-                #name {
-                    color: #949494;
-                    font-weight: 600;
-                    font-size: 30px;
+        margin: 2vh 8vw 0 8vw;
+        .header-container-left {
+            width: 20%;
+            .menu-icon {
+                display: flex;
+                a {
+                    text-decoration: none;
+                }
+                #name-wrap {
+                    img {
+                        width: 80px;
+                    }
+                    #name {
+                        color: #949494;
+                        font-weight: 600;
+                        font-size: 36px;
+                    }
                 }
             }
         }
-        .menu {
-            width: 350px;
-            display: flex;
-            position: absolute;
-            z-index: 1;
-            right: 0;
-            flex-direction: row;
-            align-items: flex-end;
-            justify-content: space-between;
-            font-size: 18px;
-            text-align: center;
-            padding: 1vh 1vw;
-            margin: 1vh 2vw;
+        .header-container-right {
+            width: 80%;
+            .menu {
+                justify-content: flex-end;
+                position: relative;
+                display: flex;
+                padding-top: 1vh;
+            }
         }
     }
 }

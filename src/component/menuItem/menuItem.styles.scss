@@ -1,30 +1,18 @@
 .menu-item-container {
     position: relative;
+    width: 90px;
     .menu-item-inner {
-        color: #949494;
-        position: absolute;
-        top: 0;
-        right: 0;
-        a {
+        .menu-item {
             text-decoration: none;
-            &:link {
+            p {
                 color: #949494;
+                font-size: 20px;
+                &:hover {
+                    font-size: 24px;
+                    color: #5e5e5e;
+                }
             }
-            &:visited {
-                color: #949494;
-            }
-        }
-        &:hover {
-            animation: menu-item 0.01s forwards;
-            //width: 120%;
         }
     }
 }
 
-@keyframes menu-item {
-    0% { font-size: 18px; }
-    25% { font-size: 19px; top: -5px; right: -1px; font-weight: 100;}
-    50% { font-size: 20px; top: -6px; right: -2px; font-weight: 200;}
-    75% { font-size: 21px; top: -7px; right: -3px; font-weight: 300;}
-    100% { font-size: 22px; top: -8px; right: -4px; font-weight: 400;}
-}

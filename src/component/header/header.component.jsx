@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import Logo from '../../assets/michaelyhz_logo.png';
 import MenuItem from '../menuItem/menuItem.component';
 
 import './header.styles.scss';
@@ -47,19 +48,23 @@ class Header extends React.Component {
         return (
             <div className="header-container">
                 <div className="header-container-inner mainPage-styles">
-                    <div className="menu-icon">
-                        <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
+                    <div className="header-container-left">
+                        <div className="menu-icon">
+                            <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
+                            {/* <Link to="/"><p id="name-wrap"><img src={Logo} /></p></Link> */}
+                        </div>
                     </div>
-                    <div className="menu">
-                        {
-                            menuBarData.menuBar.map(
-                                ({ id, ...othersProps }) =>
-                                    (<MenuItem key={id} {...othersProps} />)
-                            )
-                        }
+                    <div className="header-container-right">
+                        <div className="menu">
+                            {
+                                menuBarData.menuBar.map(
+                                    ({ id, ...othersProps }) =>
+                                        (<MenuItem key={id} {...othersProps} />)
+                                )
+                            }
+                        </div>
                     </div>
                 </div>
-
             </div>
         );
     }
