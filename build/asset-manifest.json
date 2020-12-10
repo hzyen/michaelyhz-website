@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba0bd06e.chunk.css",
-    "main.js": "/static/js/main.ccdb0247.chunk.js",
-    "main.js.map": "/static/js/main.ccdb0247.chunk.js.map",
+    "main.css": "/static/css/main.0dd88a71.chunk.css",
+    "main.js": "/static/js/main.eba19164.chunk.js",
+    "main.js.map": "/static/js/main.eba19164.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cbb4c88c.js",
     "runtime-main.js.map": "/static/js/runtime-main.cbb4c88c.js.map",
     "static/js/2.9f1536e0.chunk.js": "/static/js/2.9f1536e0.chunk.js",
@@ -10,17 +10,18 @@
     "static/js/3.13c2e3d5.chunk.js": "/static/js/3.13c2e3d5.chunk.js",
     "static/js/3.13c2e3d5.chunk.js.map": "/static/js/3.13c2e3d5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.ba0bd06e.chunk.css.map": "/static/css/main.ba0bd06e.chunk.css.map",
+    "static/css/main.0dd88a71.chunk.css.map": "/static/css/main.0dd88a71.chunk.css.map",
     "static/js/2.9f1536e0.chunk.js.LICENSE.txt": "/static/js/2.9f1536e0.chunk.js.LICENSE.txt",
     "static/media/DSC02784.a02b11b1.jpg": "/static/media/DSC02784.a02b11b1.jpg",
     "static/media/DSC02981_1.51a79d87.jpg": "/static/media/DSC02981_1.51a79d87.jpg",
-    "static/media/contact_banner.f49124c0.jpg": "/static/media/contact_banner.f49124c0.jpg",
+    "static/media/contact_banner.a3f894ba.jpg": "/static/media/contact_banner.a3f894ba.jpg",
+    "static/media/github_icon.ca6a81d3.webp": "/static/media/github_icon.ca6a81d3.webp",
     "static/media/whatsapp_icon.b737e98d.png": "/static/media/whatsapp_icon.b737e98d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cbb4c88c.js",
     "static/js/2.9f1536e0.chunk.js",
-    "static/css/main.ba0bd06e.chunk.css",
-    "static/js/main.ccdb0247.chunk.js"
+    "static/css/main.0dd88a71.chunk.css",
+    "static/js/main.eba19164.chunk.js"
   ]
 }
