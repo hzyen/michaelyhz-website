@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from 'react';
 import { TweenMax, Power3 } from 'gsap';
 
-import Banner from '../../assets/contact_banner.jpeg';
-import Fb_icon from '../../assets/socialMedia-icon/fb_icon.png';
-import Ig_icon from '../../assets/socialMedia-icon/instagram_icon.png';
-import Linkedin_icon from '../../assets/socialMedia-icon/linkedin_icon.png';
+import Banner from '../../assets/contact_banner.jpg';
+import Fb_icon from '../../assets/socialMedia-icon/fb_icon.jpg';
+import Ig_icon from '../../assets/socialMedia-icon/ig_icon.jpg';
+import Linkedin_icon from '../../assets/socialMedia-icon/linkedin_icon.jpg';
 import Whatsapp_icon from '../../assets/socialMedia-icon/whatsapp_icon.png';
 
 import './contact.styles.scss';
