@@ -8,7 +8,7 @@
     margin-top: 35px;
     text-align: left;
 
-    @media screen and (max-width: 530px){
+    @media screen and (max-width: 1024px){
         width: 52px;
         height: 24px;
     }
@@ -32,7 +32,7 @@
             font-size: 19px;
             color: #cecece;
 
-            @media screen and (max-width: 530px){
+            @media screen and (max-width: 1024px){
                 font-size: 12px;
             }
 
@@ -41,7 +41,7 @@
             }
         }
 
-        @media screen and (max-width: 530px){
+        @media screen and (max-width: 1024px){
             left: 12%;
             top: 42%;
         }
