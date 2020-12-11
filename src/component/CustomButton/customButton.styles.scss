@@ -7,6 +7,17 @@
     background-color: #6b6b6b;
     margin-top: 35px;
     text-align: left;
+
+    @media screen and (max-width: 530px){
+        width: 60px;
+        height: 28px;
+    }
+
+    @media screen and (max-width: 380px){
+        width: 44px;
+        height: 22px;
+    }
+
     .explore-container-inner {
         position: absolute;
         left: 16%;
@@ -20,6 +31,23 @@
         span {
             font-size: 19px;
             color: #cecece;
+
+            @media screen and (max-width: 530px){
+                font-size: 14px;
+            }
+
+            @media screen and (max-width: 380px){
+                font-size: 10px;
+            }
+        }
+
+        @media screen and (max-width: 530px){
+            left: 12%;
+        }
+
+        @media screen and (max-width: 380px){
+            left: 13%;
+            top: 35%;
         }
     }
 }

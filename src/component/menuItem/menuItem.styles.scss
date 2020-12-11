@@ -1,15 +1,42 @@
 .menu-item-container {
     position: relative;
     width: 90px;
+
+    @media screen and (max-width: 530px){
+        width: 55px;
+    }
+
+    @media screen and (max-width: 380px){
+        width: 40px;
+    }
+
     .menu-item-inner {
         .menu-item {
             text-decoration: none;
             p {
                 color: #949494;
                 font-size: 20px;
+
+                @media screen and (max-width: 530px){
+                    font-size: 14px;
+                }
+
+                @media screen and (max-width: 380px){
+                    font-size: 10px;
+                }
+
                 &:hover {
-                    font-size: 24px;
+                    font-size: 21px;
                     color: #5e5e5e;
+
+                    @media screen and (max-width: 530px){
+                        font-size: 18px;
+                    }
+
+                    @media screen and (max-width: 380px){
+                        font-size: 8px;
+                    }
+
                 }
             }
         }

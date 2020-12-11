@@ -24,6 +24,14 @@
                         color: #949494;
                         font-weight: 600;
                         font-size: 36px;
+
+                        @media screen and (max-width: 530px){
+                            font-size: 24px;
+                        }
+
+                        @media screen and (max-width: 380px){
+                            font-size: 16px;
+                        }
                     }
                 }
             }
@@ -35,6 +43,14 @@
                 position: relative;
                 display: flex;
                 padding-top: 1vh;
+
+                @media screen and (max-width: 530px){
+                    padding-top: 10px;
+                }
+
+                @media screen and (max-width: 380px){
+                    padding-top: 11px;
+                }
             }
         }
     }
