@@ -66,7 +66,7 @@ const Header = () => {
                         {
                             menuBarData.menuBar.map(
                                 ({ id, ...othersProps }) =>
-                                    (<MenuItem key={id} {...othersProps} />)
+                                    (<MenuItem key={id} {...othersProps} mobile_func={mobileMenuShirk}/>)
                             )
                         }
                     </div>
@@ -84,7 +84,7 @@ const Header = () => {
                         {
                             menuBarData.menuBar.map(
                                 ({ id, ...othersProps }) =>
-                                    (<MenuItem key={id} {...othersProps} />)
+                                    (<MenuItem key={id} {...othersProps}  mobile_func={mobileMenuShirk}/>)
                             )
                         }
                     </div>
