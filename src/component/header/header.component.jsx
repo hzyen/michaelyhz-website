@@ -74,7 +74,9 @@ const Header = () => {
             </div>
             <div className="header-container-inner mainPage-styles">
                 <div className="header-container-left">
-                    <div className="menu-icon">
+                    <div 
+                    onClick={ mobile_menu_button ? mobileMenuShirk : null}
+                    className="menu-icon">
                         <Link to="/"><p id="name-wrap"><span id="name">MY</span></p></Link>
                         {/* <Link to="/"><p id="name-wrap"><img src={Logo} /></p></Link> */}
                     </div>
