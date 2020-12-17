@@ -44,14 +44,14 @@ const Header = () => {
 
     const mobileMenuExpand = () => {
         set_mobile_menu_className("mobile-menu-button-active")
-        TweenMax.to(menuButtonItem, .2, { display: 'flex', opacity: 1, y: 0, ease: Power3.easeIn });
+        TweenMax.to(menuButtonItem, .5, { display: 'flex', opacity: 1, y: 0, ease: Power3.easeIn });
         toggle_mobile_menu(true);
         console.log(mobile_menu_button)
     }
 
     const mobileMenuShirk = () => {
         set_mobile_menu_className("mobile-menu-button")
-        TweenMax.to(menuButtonItem, .2, { display: 'none' ,opacity: 0, y: -150, ease: Power3.easeOut });
+        TweenMax.to(menuButtonItem, .5, { display: 'none' ,opacity: 0, y: -150, ease: Power3.easeOut });
         toggle_mobile_menu(false);
         console.log(mobile_menu_button)
     }
