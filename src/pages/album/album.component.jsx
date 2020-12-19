@@ -2,7 +2,18 @@ import React, { useState, useEffect } from 'react';
 
 import './album.styles.scss';
 
+
 const Album = () => {
+    return (
+        <div className="coming-soon-container">
+            <div className="coming-soon">
+                <p>Coming Soon</p>
+            </div>
+        </div>
+    );
+}
+
+const Albuma = () => {
     const [igAuthToken, setIgAuthToken] = useState(null);
 
     useEffect(() => {

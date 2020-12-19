@@ -1,7 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { TweenMax, Power3 } from 'gsap';
 
-import Banner from '../../assets/contact_banner.jpg';
+//import Banner from '../../assets/contact_banner.jpg';
+import Banner from '../../assets/DSC02542.jpg';
 import Fb_icon from '../../assets/socialMedia-icon/fb_icon.jpg';
 import Ig_icon from '../../assets/socialMedia-icon/ig_icon.jpg';
 import Linkedin_icon from '../../assets/socialMedia-icon/linkedin_icon.jpg';
