@@ -12,14 +12,13 @@ const CustomButton = ({ name, linkTo = "" }) => (
             </div>
         </div>
         :
-
-        <div className="explore-container">
-            <Link to={linkTo}>
+        <Link to={linkTo}>
+            <div className="explore-container">
                 <div className="explore-container-inner">
                     <span>{name}</span>
                 </div>
-            </Link>
-        </div>
+            </div>
+        </Link>
 )
 
 export default CustomButton;

@@ -1,14 +1,24 @@
-import React from 'react';
-import Banner from '../../assets/progressive_img/DSC02981_1.jpg';
+import React, { useState, useEffect } from 'react';
+
 import './album.styles.scss';
 
-const Album = () => (
-    <div className="coming-soon-container">
-        <img className="coming-soon-img" src={Banner} alt="Banner" />
-        <div className="coming-soon">
-            <p>Coming Soon</p>
+const Album = () => {
+    const [igAuthToken, setIgAuthToken] = useState(null);
+
+    useEffect(() => {
+        const fetchIgAuthToken = async () => {
+            const response = await fetch(`https://graph.instagram.com/access_token
+            ?grant_type=ig_exchange_token
+            &client_secret={instagram-app-secret}
+            &access_token={short-lived-access-token}`);
+        }
+    });
+
+    return (
+        <div className="album-container">
+
         </div>
-    </div>
-)
+    );
+}
 
 export default Album;

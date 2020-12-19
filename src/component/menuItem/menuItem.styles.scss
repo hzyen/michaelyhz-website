@@ -1,7 +1,8 @@
 .menu-item-container {
     position: relative;
     width: 90px;
-    display: flex;
+    display: flex;    
+    justify-content: flex-end;
 
     @media screen and (max-width: 1024px) {
         justify-content: center;

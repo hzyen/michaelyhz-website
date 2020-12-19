@@ -1,0 +1,180 @@
+{
+    "about_me": {
+        "chinese_name": "嚴浩志",
+        "english_name": "Yen Hao Zhi",
+        "old_chinese_name": "嚴基柱",
+        "old_english_name": "Yen Kei Chu",
+        "nickname": "Michael",
+        "email": "a03036yen@yahoo.com.hk",
+        "live": "Hong Kong",
+        "phone": "+852 92005922",
+        "school": "Hong Kong University of Science and Technology",
+        "bachelor_degree": "Computer Engineering",
+        "Languages": [
+            {
+                "name": "Cantonese",
+                "level": 5
+            },
+            {
+                "name": "English",
+                "level": 4
+            },
+            {
+                "name": "Mandarin",
+                "level": 4
+            }
+        ]
+    },
+    "bio": "Hi, I am a fresh graduate majoring in Computer Engineering at Hong Kong University of Science and Technology. A programmer who is confident and skilled in Software Application and Machine Learning field with great communication skills. Passion, self-learning, and team spirit are my advantages in building up different challenging projects.",
+    "education": [
+        {
+            "school": "Hong Kong University of Science and Technology",
+            "from": "Sep 2017",
+            "to": "Jun 2020",
+            "program": "Bachelor of Computer Engineering",
+            "awards": [],
+            "courses": []
+        },
+        {
+            "school": "Tallin University",
+            "from": "Jan 2020",
+            "to": "Jan 2020",
+            "program": "Winter School",
+            "awards": [],
+            "courses": [
+                "Estonian Language"
+            ]
+        },
+        {
+            "school": "PeKing University",
+            "from": "Jul 2019",
+            "to": "Aug 2019",
+            "program": "School of Engineering Summer Exchange Program",
+            "awards": [],
+            "courses": [
+                "Simulation Methods for Optimization and Learning"
+            ]
+        },
+        {
+            "school": "Hong Kong University Space Community College",
+            "from": "Sep 2015",
+            "to": "Jun 2017",
+            "program": "Associate of Computer Science (Distinction)",
+            "awards": [
+                "Principal's Honors List"
+            ],
+            "courses":[]
+        },
+        {
+            "school": "Christian Alliance College",
+            "from": "Sep 2009",
+            "to": "Jun 2015",
+            "program": "",
+            "awards": [],
+            "courses": []
+        }
+    ],
+    "work_experience": [
+        {
+            "company_name": "Varmeego Limited",
+            "post": "Consultant I",
+            "type": "Grudate Trainee Program & Full-Time",
+            "from": "Jul 2020",
+            "to": "Present",
+            "desciptions": [
+                "Work in Research & Develop Team",
+                "Currently focus on Machine Learning area (Image Classification and Object Detection)"
+            ]
+        },
+        {
+            "company_name": "TradeLink Technologies Ltd. Hong Kong",
+            "post": "Business Information Service Consultant Internship Staff",
+            "type": "Internship & Part-Time",
+            "from": "Jun 2019",
+            "to": "Aug 2019",
+            "desciptions": [
+                "Work in Data Solutions Department",
+                "To research and develop document transfer program by C# and ASP.Net",
+                "To mainly focus on Authentication part",
+                "To be assigned to build Web API and File transfer"
+            ]
+        },
+        {
+            "company_name": "BULL.B TECHNOLOGY LIMITED",
+            "post": "Mobile Application Developer",
+            "type": "Internship & Part-Time",
+            "from": "Dec 2018",
+            "to": "May 2019",
+            "desciptions": [
+                "To assist with the full-time front-end mobile app developer to build up graphic user interfaces and functionsusing Flutter",
+                "To use API to acquire data from a server",
+                "UI adjustment in mobile app and web using Flutter and React"
+            ]
+        }
+    ],
+    "activities": [
+        "Member in University Football team, Session 2017-2020",
+        "Member in University Dragon Boat team, Session 2017-2018",
+        "External Vice Chairperson in Computer Engineering Students' Society, HKUSTSU, Session 2017-2018",
+        "President in Students' Football Club, HKUSTSU, Session 2019-2020"
+    ],
+    "certifications": [],
+    "skills": [
+        {
+            "name": "Python",
+            "level": 5
+        },
+        {
+            "name": "Tensorflow",
+            "level": 3
+        },
+        {
+            "name": "Numpy",
+            "level": 4
+        },
+        {
+            "name": "Pandas",
+            "level": 4
+        },
+        {
+            "name": "OpenCV",
+            "level": 4
+        },
+        {
+            "name": "Java",
+            "level": 3
+        },
+        {
+            "name": "C",
+            "level": 3
+        },
+        {
+            "name": "C++",
+            "level": 4
+        },
+        {
+            "name": "C#",
+            "level": 3
+        },
+        {
+            "name": "HTML",
+            "level": 4
+        },
+        {
+            "name": "CSS",
+            "level": 4
+        },
+        {
+            "name": "JavaScript",
+            "level": 4
+        },
+        {
+            "name": "ReactJs",
+            "level": 4
+        },
+        {
+            "name": "Flutter",
+            "level": 3
+        }
+    ]
+}

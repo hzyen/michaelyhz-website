@@ -1,9 +1,13 @@
 .App {
   text-align: center;
-  min-height: 100vh;
+  //min-height: 100vh;
   //color: #a9a9a9;
   /*background-color: #000000;*/
   /*margin: 0vw 10vw 0vw 10vw;*/
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 .mainPage-styles {
