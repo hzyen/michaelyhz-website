@@ -42,9 +42,7 @@ function Home() {
                     <div
                         ref={el => { exploreButton = el }}
                         className="explore-wrap">
-                        <Link to="/about">
-                            <CustomBottom name="Explore" />
-                        </Link>
+                            <CustomBottom name="Explore" linkTo="/about" />
                     </div>
                 </div>
             </div>
