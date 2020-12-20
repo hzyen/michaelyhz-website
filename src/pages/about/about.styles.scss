@@ -83,26 +83,24 @@
                         }
                     }
 
+
                     .about-box-inner-content-education {
                         display: flex;
                         border-bottom: 1px solid #949494;
                         flex-direction: column;
+                        padding: 5px;
 
-                        .about-box-inner-content-education {
-                            display: flex;
-                            flex-direction: column;
-                            padding: 5px;
-                            p {
-                                font-size: 12px;
-                                margin: 0;
+                        p {
+                            font-size: 12px;
+                            margin: 0;
 
-                                #title {
-                                    font-weight: 600;
-                                    color: #6c6c6c;
-                                }
+                            #title {
+                                font-weight: 600;
+                                color: #6c6c6c;
                             }
                         }
                     }
+
 
                     .about-box-inner-content-experience {
                         display: flex;
@@ -132,6 +130,7 @@
                     &::-webkit-scrollbar {
                         display: none
                     }
+
                     .about-box-inner-content-skills {
                         p {
                             margin: 2px;
@@ -186,7 +185,7 @@
                 grid-column-end: 1;
                 grid-row-start: 1;
                 grid-row-end: 1;
-                margin: 0 5px 5px 0 ;
+                margin: 0 5px 5px 0;
             }
 
             @media screen and (max-width: 600px) {
@@ -275,7 +274,7 @@
                 grid-column-end: 1;
                 grid-row-start: 6;
                 grid-row-end: 6;
-                margin: 5px 0 0 0 ;
+                margin: 5px 0 0 0;
             }
         }
 

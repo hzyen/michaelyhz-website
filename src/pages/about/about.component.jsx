@@ -25,16 +25,16 @@ const About = () => {
         TweenMax.staggerFrom([topleftItem, middletopItem], 1, { opacity: 0, y: -150, ease: Power3.easeOut }, 0.1);
         TweenMax.staggerFrom([bottomleftItem, middlebottomItem], 1, { opacity: 0, y: 150, ease: Power3.easeOut }, 0.1);
         TweenMax.from(rightItem, 1, { opacity: 0, x: 150, ease: Power3.easeOut, delay: 0.1 })
-        
+
     }, [])
 
 
     return (
         <div className="about-container">
             <div className="about-container-inner">
-                <div 
-                ref={el => { topleftItem = el }}
-                className="about-box about-topleft-box">
+                <div
+                    ref={el => { topleftItem = el }}
+                    className="about-box about-topleft-box">
                     <div className="about-box-inner">
                         <div className="about-box-inner-title">
                             <span>About me</span>
@@ -59,9 +59,9 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div 
-                ref={el => { bottomleftItem = el }}
-                className="about-box about-bottomleft-box">
+                <div
+                    ref={el => { bottomleftItem = el }}
+                    className="about-box about-bottomleft-box">
                     <div className="about-box-inner">
                         <div className="about-box-inner-title">
                             <span>Education</span>
@@ -69,29 +69,27 @@ const About = () => {
                         <div className="about-box-inner-content">
                             {
                                 education.map(({ school, from, to, program, awards, courses, logo }) => (
-                                    <div key={school} className="about-box-inner-content-education">
-                                        <div className="about-box-inner-content-education">
-                                            <p><span id="title" style={{ fontSize: "14px" }}>{school}</span></p>
-                                            <p><span id="title">Period:</span> <span>{from}</span>-<span>{to}</span></p>
-                                            {
-                                                program ? <p><span id="title">Program:</span> {program}</p> : null
-                                            }
-                                            {
-                                                awards.length > 0 ? awards.map((item) => (<p><span id="title">Awards:</span> {item}</p>)) : null
-                                            }
-                                            {
-                                                courses.length > 0 ? courses.map((item) => (<p><span id="title">Courses:</span> {item}</p>)) : null
-                                            }
-                                        </div>
+                                    <div className="about-box-inner-content-education">
+                                        <p><span id="title" style={{ fontSize: "14px" }}>{school}</span></p>
+                                        <p><span id="title">Period:</span> <span>{from}</span>-<span>{to}</span></p>
+                                        {
+                                            program ? <p><span id="title">Program:</span> {program}</p> : null
+                                        }
+                                        {
+                                            awards.length > 0 ? awards.map((item) => (<p><span id="title">Awards:</span> {item}</p>)) : null
+                                        }
+                                        {
+                                            courses.length > 0 ? courses.map((item) => (<p><span id="title">Courses:</span> {item}</p>)) : null
+                                        }
                                     </div>
                                 ))
                             }
                         </div>
                     </div>
                 </div>
-                <div 
-                ref={el => { middletopItem = el }}
-                className="about-box about-middleup-box">
+                <div
+                    ref={el => { middletopItem = el }}
+                    className="about-box about-middleup-box">
                     <div className="about-box-inner">
                         <div className="about-box-inner-title">
                             <span>Experience</span>
@@ -116,21 +114,21 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <div 
-                ref={el => { middlebottomItem = el }}
-                className="about-box about-middledown-box">
+                <div
+                    ref={el => { middlebottomItem = el }}
+                    className="about-box about-middledown-box">
                     <div className="about-box-inner">
                         <div className="about-box-inner-title">
                             <span>Certifications</span>
                         </div>
                         <div className="about-box-inner-content">
-                            
+
                         </div>
                     </div>
                 </div>
-                <div 
-                ref={el => { rightItem = el }}
-                className="about-box about-right-box">
+                <div
+                    ref={el => { rightItem = el }}
+                    className="about-box about-right-box">
                     <div className="about-box-inner">
                         <div className="about-box-inner-content-s">
                             <div className="about-box-inner-title">
