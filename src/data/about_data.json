@@ -13,15 +13,15 @@
         "Languages": [
             {
                 "name": "Cantonese",
-                "level": 5
+                "level": "100%"
             },
             {
                 "name": "English",
-                "level": 4
+                "level": "80%"
             },
             {
                 "name": "Mandarin",
-                "level": 4
+                "level": "80%"
             }
         ]
     },
@@ -33,7 +33,8 @@
             "to": "Jun 2020",
             "program": "Bachelor of Computer Engineering",
             "awards": [],
-            "courses": []
+            "courses": [],
+            "logo": "hkust_logo"
         },
         {
             "school": "Tallin University",
@@ -43,7 +44,8 @@
             "awards": [],
             "courses": [
                 "Estonian Language"
-            ]
+            ],
+            "logo": "tallin_logo"
         },
         {
             "school": "PeKing University",
@@ -53,7 +55,8 @@
             "awards": [],
             "courses": [
                 "Simulation Methods for Optimization and Learning"
-            ]
+            ],
+            "logo": "pku_logo"
         },
         {
             "school": "Hong Kong University Space Community College",
@@ -63,7 +66,8 @@
             "awards": [
                 "Principal's Honors List"
             ],
-            "courses":[]
+            "courses":[],
+            "logo": "hkuspace_logo"
         },
         {
             "school": "Christian Alliance College",
@@ -71,7 +75,8 @@
             "to": "Jun 2015",
             "program": "",
             "awards": [],
-            "courses": []
+            "courses": [],
+            "logo": "cac_logo"
         }
     ],
     "work_experience": [
@@ -122,59 +127,59 @@
     "skills": [
         {
             "name": "Python",
-            "level": 5
+            "level": "90%"
         },
         {
             "name": "Tensorflow",
-            "level": 3
+            "level": "60%"
         },
         {
             "name": "Numpy",
-            "level": 4
+            "level": "70%"
         },
         {
             "name": "Pandas",
-            "level": 4
+            "level": "70%"
         },
         {
             "name": "OpenCV",
-            "level": 4
+            "level": "70%"
         },
         {
             "name": "Java",
-            "level": 3
+            "level": "80%"
         },
         {
             "name": "C",
-            "level": 3
+            "level": "70%"
         },
         {
             "name": "C++",
-            "level": 4
+            "level": "80%"
         },
         {
             "name": "C#",
-            "level": 3
+            "level": "75%"
         },
         {
             "name": "HTML",
-            "level": 4
+            "level": "90%"
         },
         {
             "name": "CSS",
-            "level": 4
+            "level": "80%"
         },
         {
             "name": "JavaScript",
-            "level": 4
+            "level": "80%"
         },
         {
             "name": "ReactJs",
-            "level": 4
+            "level": "80%"
         },
         {
             "name": "Flutter",
-            "level": 3
+            "level": "65%"
         }
     ]
 }
