@@ -1,8 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import { TweenMax, Power3 } from 'gsap';
 import { Link } from 'react-router-dom';
 
-import Logo from '../../assets/michaelyhz_logo.png';
 import MenuItem from '../menuItem/menuItem.component';
 
 import './header.styles.scss';

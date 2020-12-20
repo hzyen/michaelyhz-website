@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 import './album.styles.scss';
 
@@ -13,7 +13,7 @@ const Album = () => {
     );
 }
 
-const Albuma = () => {
+/* const Albuma = () => {
     const [igAuthToken, setIgAuthToken] = useState(null);
 
     useEffect(() => {
@@ -30,6 +30,6 @@ const Albuma = () => {
 
         </div>
     );
-}
+} */
 
 export default Album;

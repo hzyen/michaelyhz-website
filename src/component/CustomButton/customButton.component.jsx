@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './customButton.styles.scss';
 
 const CustomButton = ({ name, linkTo = "" }) => (
-    linkTo == "" ?
+    linkTo === "" ?
 
         <div className="explore-container">
             <div className="explore-container-inner">
