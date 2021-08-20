@@ -55,7 +55,7 @@ function Contact() {
                             <div
                                 ref={el => { wtpItem = el }}
                                 className="socialMedia-container-inner">
-                                <a href="https://wa.me/92005922" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/+85292005922" target="_blank" rel="noopener noreferrer">
                                     <img src={Whatsapp_icon} alt="Whatsapp_icon" />
                                 </a>
                             </div>
